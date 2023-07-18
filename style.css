@@ -1,15 +1,26 @@
+#centered-container {
+    position: relative;
+    height: 100vh;
+    /* Set the container height to cover the full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Additional styles for the container can be added here */
+}
+
 #tipbody {
     background-color: #bcbcf1;
     padding: 16px;
     border-radius: 16px;
+    width: 500px;
+    box-shadow: 0px 8px 8px rgba(36, 3, 255, 0.1);
 
 }
 
 #textandbutton {
     background-color: #ffffff;
     padding: 16px;
-    border-radius: 8px;
-    width: 300px;
+    border-radius: 16px;
     box-shadow: 2px 12px 8px rgba(36, 3, 255, 0.1);
 }
 
@@ -20,7 +31,7 @@
     padding: 16px;
     border-radius: 8px;
     margin-top: 2px;
-    margin-bottom: 75px;
+    margin-bottom: 24px;
 }
 
 
