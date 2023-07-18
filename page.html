@@ -23,6 +23,9 @@
                         d="M4 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-2zm0 4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-4z" />
                 </svg></h1>
 
+
+
+
             <div id="textandbutton">
                 <div id="textandinput">
                     <div id="inputgroup"> <label for="billAmount">Bill Amount: $</label>
@@ -32,14 +35,22 @@
                     <div id="inputgroup"><label for="tipPercentage">Tip Percentage: %</label>
                         <input type="number" id="tipPercentage">
                     </div>
+
+                    <div id="inputgroup"><label for="numberOfGuests">Number of Guests:</label>
+                        <input type="number" id="numberOfGuests">
+                    </div>
                 </div>
 
+                <div id="buttongrid">
+                    <button id="button1"><b>Calculate Tip, Sire</b></button>
+                    <button id="button2"><b>Clear Inputs, Sire</b></button>
+                </div>
 
-                <button id="button1" onclick="calculateTip()"><b>Calculate Tip, Sire</b></button>
             </div>
-
-            <h2>Tip Amount: $<span id="tipAmount">0.00</span></h2>
-            <h2>Total Bill: $<span id="totalBill">0.00</span></h2>
+            <div id="mrmoney">
+                <h2>Total Tip: $ <span id="tipAmount">0.00</span></h2>
+                <h2>Total Bill per Person: $ <span id="totalBill">0.00</span></h2>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
