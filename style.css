@@ -8,7 +8,7 @@
     /* Additional styles for the container can be added here */
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 750px) {
     #centered-container {
         padding: 20px;
     }
@@ -205,6 +205,7 @@
     border: solid;
     border-width: 2px;
     border-color: #dddddd;
+    margin-right: 24px;
 }
 
 #totalBill {
@@ -258,4 +259,11 @@ button {
 h3 {
     color: #656574;
     font-family: ClashRegular;
+}
+
+#tipbox {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+
 }
